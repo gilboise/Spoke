@@ -25,6 +25,7 @@ export function applyScript({ script, contact, customFields, texter }) {
       getFieldValue(contact, texter, field)
     );
     appliedScript = appliedScript.replace(/  +/g, " ");
+    appliedScript = appliedScript.replace(/ \.+/g, ".");
   });
 
   return appliedScript;
