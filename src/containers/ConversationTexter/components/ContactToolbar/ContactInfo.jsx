@@ -107,7 +107,19 @@ export default class ContactInfo extends React.Component {
           Documents:
           <ul>
             <li>
-              Script Library:{" "}
+              Month 2 Script:{" "}
+              <a href="https://bit.ly/Month2Script" target="new">
+                https://bit.ly/Month2Script
+              </a>
+            </li>
+            <li>
+              Month 2 Articles Library:{" "}
+              <a href="https://bit.ly/ArticlesLibrary" target="new">
+                https://bit.ly/ArticlesLibrary
+              </a>
+            </li>
+            <li>
+              Month 1 Script:{" "}
               <a href="https://bit.ly/MCDPTextMonth1Script" target="new">
                 https://bit.ly/MCDPTextMonth1Script
               </a>
