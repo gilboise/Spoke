@@ -236,8 +236,7 @@ export const resolvers = {
       }
     },
     tags: campaignContact => {
-      console.log("Getting those tags");
-      campaignContact.tags;
+      return [];
     },
     issues: async campaignContact => {
       const messages = await r
