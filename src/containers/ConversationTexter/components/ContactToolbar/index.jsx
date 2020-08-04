@@ -63,7 +63,8 @@ function ContactToolbar({
           />
 
           <div style={inlineStyles.chipDiv}>
-            {campaignContact.issues &&
+            {campaignContact &&
+              campaignContact.issues &&
               campaignContact.issues.map(issue => (
                 <Chip style={inlineStyles.chip} key={issue}>
                   {issue}
