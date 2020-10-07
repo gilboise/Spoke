@@ -61,16 +61,6 @@ function ContactToolbar({
             text={contactName}
             style={inlineStyles.cellToolbarTitle}
           />
-
-          <div style={inlineStyles.chipDiv}>
-            {campaignContact &&
-              campaignContact.issues &&
-              campaignContact.issues.map(issue => (
-                <Chip style={inlineStyles.chip} key={issue}>
-                  {issue}
-                </Chip>
-              ))}
-          </div>
         </ToolbarGroup>
         <ToolbarGroup>
           {campaignContact && (
